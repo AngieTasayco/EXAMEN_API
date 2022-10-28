@@ -10,7 +10,7 @@ import net.thucydides.core.annotations.Steps;
 public class OrderStoreSD {
 
     @Steps
-    OrderStoreStep orderStore; // =new PetStoreStep
+    OrderStoreStep orderStore;
 
     @Given("dado el servicio url {string}")
     public void dadoElServicioUrl(String sURL) {
